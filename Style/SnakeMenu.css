@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Zen Dots", cursive;
+  font-size: 16px;
+}
+
+#LogoImage {
+  width: 80px;
+  height: 90px;
+  display: block;
+  cursor: pointer;
+  margin-right: auto;
+  padding: 8px;
+}
+
+#Title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Bungee Inline", cursive;
+  font-size: 5em;
+  color: rgb(31, 210, 255);
+}
+
+Body {
+  background-color: #4c3f54;
+  height: 100%;
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100%;
+  overflow: auto;
+}
+/*SnakeMenu code*/
+
+/*Snake logo code*/
+
+.Logo {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Balsamiq Sans", cursive;
+  color: #1ac0be;
+  position: relative;
+}
+
+.LogoName {
+  font-size: 8rem;
+  font-family: "Bungee Inline", cursive;
+  font-weight: 600;
+  text-shadow: 0 0 0.05em hsl(0 0% 100% / 0.5), 0 0 0.25em var(--clr-neon);
+}
+
+/*Button Code */
+
+:root {
+  --clr-neon: #1ac0be;
+  --clr-bg: hsl(323 21% 16%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.config {
+  height: 45vh;
+  display: grid;
+  place-items: center;
+}
+
+.position {
+  position: relative;
+  top: -8vh;
+}
+
+.neon-button {
+  display: grid;
+  place-items: center;
+
+  font-size: 4rem;
+  font-family: 'Zen Dots', cursive;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-neon);
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.05em 1em;
+  border-radius: 0.25em;
+  position: relative;
+
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em var(--clr-neon);
+
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+}
+
+.neon-button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: var(--clr-neon);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1em) rotateX(30deg) scale(1, 0.45);
+  filter: blur(0.3em);
+  opacity: 2;
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 1em 0.5em var(--clr-neon);
+  background: var(--clr-neon);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  color: var(--clr-bg);
+  text-shadow: none;
+}
+
+.neon-button:hover::after,
+.neon-button:focus::after {
+  opacity: 1;
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+  opacity: 1;
+}
+
+/*Nav Menu configuration*/
+header li,
+header a,
+header Button {
+  font-weight: 800;
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.headerDiv {
+  display: block;
+  margin-right: auto;
+}
+
+.NavMenu {
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.NavMenu li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.NavMenu li a {
+  transition: all 0.5s ease 0s;
+}
+
+.NavMenu li a:hover {
+  color: #6072c4;
+}
+
+/*ScrollBar styling*/
+/* Works on Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(105, 133, 143); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(51, 63, 68); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px; /* creates padding around scroll thumb */
+}
+
+/* Works on Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(51, 63, 68) rgb(105, 133, 143);
+}
+
+/*Style for different dimensions*/
+@media screen and (max-width: 802px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 18vh;
+  }
+
+  .FooterHeading h2 {
+    font-size: 1.2em;
+  }
+
+  .FooterHeading a {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 20vh;
+  }
+
+  .FooterHeading {
+    width: 25%;
+  }
+
+  .FooterHeading h2 {
+    font-size: 1.2em;
+  }
+
+  .FooterHeading a {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #NavButton {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 35vh;
+  }
+
+  .FooterHeading {
+    width: 20%;
+  }
+
+  .FooterHeading h2 {
+    font-size: 1em;
+  }
+
+  .FooterHeading a {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 313px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 50vh;
+  }
+}
+
+@media screen and (min-height: 797px) {
+  .ButtonDiv,
+  .TextDiv {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-height: 581px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-height: 523px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-height: 260px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-height: 208px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-height: 131px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-height: 105px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 150vh;
+  }
+}
+
+@media screen and (max-height: 70px) {
+  .Footer {
+    padding-top: 2rem;
+    height: 200vh;
+  }
+}
