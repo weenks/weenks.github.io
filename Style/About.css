@@ -64,7 +64,7 @@ main{
 .FooterHeading h2 {
     margin-bottom: 1rem;
     font-size: 1.4em;
-    color: rgb(90, 69, 212);
+    color: rgb(10, 9, 9);
     font-weight: bold;
 }
 
@@ -130,7 +130,7 @@ header{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #b6512a;
+    background: #ff0000;
     margin: 0 auto;
 }
 

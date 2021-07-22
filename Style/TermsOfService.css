@@ -25,7 +25,7 @@ color: rgb(31, 210, 255);
 }
 
 Body {
-background-color: #4c3f54;
+background-color:#d5dbdf;
 height: 100%;
 min-height: 100%;
 }
@@ -70,7 +70,7 @@ margin-right: 2rem;
 .FooterHeading h2 {
 margin-bottom: 1rem;
 font-size: 1.4em;
-color: rgb(90, 69, 212);
+color: rgb(10, 9, 9);
 font-weight: bold;
 }
 
@@ -92,7 +92,7 @@ header Button {
 font-weight: 800;
 font-size: 1em;
 text-decoration: none;
-color: white;
+color: black;
 }
 
 header {
@@ -124,6 +124,38 @@ transition: all 0.5s ease 0s;
 .NavMenu li a:hover {
 color: #6072c4;
 }
+
+.container{
+    padding: 1.5rem;
+    margin: 5rem;
+    background-color: rgb(148, 161, 167);
+}
+
+.container p{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container a{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container p strong{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container h1{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container h2{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container li{
+    padding-left: 1.4rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
 
 /*ScrollBar styling*/
 /* Works on Chrome, Edge, and Safari */
