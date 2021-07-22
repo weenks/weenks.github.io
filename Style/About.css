@@ -121,7 +121,17 @@ header{
 /*About Styling*/
 #Body{
     height: 100%;
-    background: linear-gradient(90deg, #cab1b1 50%, #4c3f54 50%);
+    background: linear-gradient(90deg, #d5dbdf 50%, #2c334d 50%);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #b6512a;
+    margin: 0 auto;
 }
 
 .container{
@@ -132,11 +142,11 @@ header{
 }
 
 .profile-section-left h1, .profile-section-left h2, .profile-section-left p{
-    color: #8d4eb4;
+    color: #2c334d;
 }
 
 .profile-section-right h1, .profile-section-right h2, .profile-section-right p{
-    color: #cab1b1;
+    color: #d5dbdf;
 }
 
 
@@ -146,7 +156,7 @@ header{
     width: 50%;
     float: right;
     height: 100%;
-    background-color: #4c3f54;
+    background-color: #2c334d;
     z-index: 1010101010
 }
 
@@ -156,7 +166,7 @@ header{
     width: 50%;
     float: left;
     height: 100%;
-    background-color: #cab1b1;
+    background-color: #d5dbdf;
     z-index: 1010101010
 }
 
