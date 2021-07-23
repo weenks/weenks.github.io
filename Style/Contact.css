@@ -6,7 +6,7 @@
 }
 
 Body {
-  background-color: #4c3f54;
+  background-color: #d5dbdf;
   height: 100%;
   min-height: 100vh;
 }
@@ -54,7 +54,7 @@ Body {
 .FooterHeading h2 {
   margin-bottom: 1rem;
   font-size: 1.4em;
-  color: rgb(90, 69, 212);
+  color: rgb(10, 9, 9);
   font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ header Button {
   font-weight: 800;
   font-size: 1em;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 header {
@@ -128,11 +128,11 @@ header {
 .contact .content h2 {
   font-size: 36px;
   font-weight: 500px;
-  color: rgb(65, 167, 226);
+  color: #2c334d;
 }
 .contact .content p {
   font-weight: 300px;
-  color: #fff;
+  color: black;
 }
 
 .paragraph {
@@ -149,7 +149,7 @@ header {
 }
 
 .container p {
-  color: #fff;
+  color: black;
 }
 
 .container .contactInfo {
@@ -184,7 +184,7 @@ header {
 
 .container .contactInfo .box .text h3 {
   font-weight: 500;
-  color: rgb(65, 167, 226);
+  color: #2c334d;
 }
 
 .contactForm {
