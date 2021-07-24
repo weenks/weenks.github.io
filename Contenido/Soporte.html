@@ -14,11 +14,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css" integrity="sha512-jQqzj2vHVxA/yCojT8pVZjKGOe9UmoYvnOuM/2sQ110vxiajBU+4WkyRs1ODMmd4AfntwUEV4J+VfM6DkfjLRg==" crossorigin="anonymous" />
 
         <link rel="shortcut icon" href="../Assets/Images/CompanyIcon.ico">
-        <title>Weenks | Support</title>
+        <title>IJR | Support</title>
     </head>
     <body id="Body">
         <header>
-            <img id="LogoImage" src="../Assets/Images/CompanyLogo.png">
             <div id="headerDiv">              
                 <nav class="NavBar">
                     <ul class="NavMenu" id="NavList">
@@ -30,32 +29,51 @@
             </div>
         </header>
         <main>
-            <section class="container color">
-                <button class=" btn">
-                    <div class="icon"><i class="fas fa-wifi" aria-hidden="true"></i></div>
-                    <span class="btn1 btnz">Conection problems</span>
-                </button>
-                <button class="btn">
-                    <div class="icon"><i class="fas fa-smile-wink"></i></div>
-                    <span class=" btn2 btnz">Why is this page so good?</span>
-                </button>
-                <button class="btn">
-                    <div><i class="fas fa-user-alt-slash"></i></i></div>
-                    <span class="btn3 btnz">I can't create an account</span>
-                </button>             
-                <button class=" btn">
-                    <div><i class="fas fa-bug"></i></div>
-                    <span class="btn3 btnz">Report a bug</span>
-                </button>               
-                <button class=" btn">
-                    <div><i class="fas fa-user-times"></i></div>
-                    <span class="btn5 btnz">How to report a user?</span>
-                </button>
-                <button class=" btn">
-                    <div><i class="fas fa-skull-crossbones"></i></div>
-                    <span class="btn6 btnz">My account was stolen</span>
-                </button>
-            </section>
+            <div class="separator">
+                <section class="profile-section-left split">
+                    <div class= "center left">
+                        <div class="container">
+                            <section class="container color">
+                                <button class=" btn" id="bt1">
+                                    <div class="icon"><i class="fas fa-wifi" aria-hidden="true"></i></div>
+                                    <span class="btn1 btnz">Problemas de conexión</span>
+                                </button>
+                                <button class="btn" id="bt2">
+                                    <div class="icon"><i class="fas fa-skull-crossbones"></i></div>
+                                    <span class=" btn2 btnz">Usurpación de identidad</span>
+                                </button>
+                                <button class="btn" id="bt3">
+                                    <div><i class="fas fa-user-alt-slash"></i></i></div>
+                                    <span class="btn3 btnz">¿Cómo crear una cuenta?</span>
+                                </button>             
+                                <button class=" btn" id="bt4">
+                                    <div><i class="fas fa-bug"></i></div>
+                                    <span class="btn3 btnz">Reportar un fallo</span>
+                                </button>               
+                                <button class=" btn" id="bt5">
+                                    <div><i class="fas fa-user-times"></i></div>
+                                    <span class="btn5 btnz">¿Cómo ponerse en contacto?</span>
+                                </button>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <section class="profile-section-right split">
+                    <div class="center right">
+                        <div class="container">
+                            <h1>Solución</h1>
+                            <p id="text">Por favor seleccione una opción</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <script>
+                document.getElementById("bt1").onclick = function() {myFunction()};
+                
+                function myFunction() {
+                    document.getElementById("text").innerHTML = "YOU CLICKED ME!";
+                }
+                </script>
         </main>
         <footer>
             <div class="FooterContainer">
@@ -73,5 +91,6 @@
                 </div>
             </div>
         </footer>
+        <script src="../Scripts/Support.js"></script>
     </body>
 </html>
