@@ -110,7 +110,7 @@ main {
 /*Footer code*/
 
 .FooterContainer {
-  background-color: #686f8d;
+  background-color: #ced7d8;
   position: relative;
   margin-top: -100px;
   clear: both;
@@ -124,7 +124,7 @@ main {
 .Footer {
   width: 80%;
   height: 15vh;
-  background-color: #686f8d;
+  background-color: #ced7d8;
   color: white;
   display: flex;
   justify-content: center;
@@ -142,7 +142,7 @@ main {
 .FooterHeading h2 {
   margin-bottom: 1rem;
   font-size: 1.4em;
-  color: rgb(90, 69, 212);
+  color: #1e3d59;
   font-weight: bold;
 }
 
