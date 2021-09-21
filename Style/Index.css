@@ -47,7 +47,7 @@ main {
   font-family: "Zen Dots", cursive;
   font-size: 1em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #ced7d8;
   width: 60%;
   height: 100px;
   padding: 15px;
@@ -164,7 +164,7 @@ header Button {
   font-weight: 800;
   font-size: 1em;
   text-decoration: none;
-  color: white;
+  color: #ced7d8;
 }
 
 header {
