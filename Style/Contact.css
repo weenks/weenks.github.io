@@ -6,13 +6,13 @@
 }
 
 Body {
-  background-color: #d5dbdf;
+  background-color: #1e3d59;
   height: 100%;
   min-height: 100vh;
 }
 
 #LogoImage {
-  width: 80px;
+  width: 90px;
   height: 90px;
   display: block;
   cursor: pointer;
@@ -20,9 +20,12 @@ Body {
   padding: 8px;
 }
 
+#New_white {
+  color: #ced7d8;
+}
 /*Footer Stuff*/
 .FooterContainer {
-  background-color: #686f8d;
+  background-color: #ced7d8;
   position: relative;
   margin-top: -100px;
   clear: both;
@@ -36,7 +39,7 @@ Body {
 .Footer {
   width: 80%;
   height: 15vh;
-  background-color: #686f8d;
+  background-color: #ced7d8;
   color: white;
   display: flex;
   justify-content: center;
@@ -54,12 +57,12 @@ Body {
 .FooterHeading h2 {
   margin-bottom: 1rem;
   font-size: 1.4em;
-  color: rgb(10, 9, 9);
+  color: #1e3d59;
   font-weight: bold;
 }
 
 .FooterHeading a {
-  color: white;
+  color: #1e3d59;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -76,7 +79,7 @@ header Button {
   font-weight: 800;
   font-size: 1em;
   text-decoration: none;
-  color: black;
+  color: #ced7d8;
 }
 
 header {
@@ -106,7 +109,7 @@ header {
 }
 
 .NavMenu li a:hover {
-  color: #6072c4;
+  color: #ced7d8;
 }
 
 /*Contact Stuff*/
@@ -166,7 +169,7 @@ header {
 .container .contactInfo .box .icon {
   min-width: 60px;
   height: 60px;
-  background: #fff;
+  background: #ced7d8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,7 +198,7 @@ header {
 
 .contactForm h2 {
   font-size: 30px;
-  color: #fff;
+  color: #ced7d8;
   font-weight: 500;
 }
 
@@ -212,11 +215,11 @@ header {
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ced7d8;
   outline: none;
   resize: none;
   background-color: #333;
-  color: #ffff;
+  color: #ced7d8;
 }
 
 .contactForm .inputBox label {
@@ -227,7 +230,7 @@ header {
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #fff;
+  color: #ced7d8;
 }
 
 .contactForm .inputBox input:focus ~ label,
@@ -241,7 +244,7 @@ header {
 
 .contactForm .inputBox input[type="submit"] {
   width: 100px;
-  background: #fff;
+  background: #ced7d8;
   color: #333;
   border: none;
   cursor: pointer;
