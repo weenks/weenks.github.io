@@ -23,15 +23,21 @@ main {
 }
 
 Body {
-  background-color: #d5dbdf;
+  background-color: #1e3d59;
   height: 100%;
   min-height: 100vh;
 }
 
 /*New menu code*/
-#Body{
+#Body {
   height: 100%;
-  background: linear-gradient(90deg, #2c334d 30%, #d5dbdf 30%);
+  background: #1e3d59;
+}
+
+/* Color Stuff*/
+
+#Gray {
+  color: #d5dbdf;
 }
 
 .circle {
@@ -44,39 +50,42 @@ Body {
   margin: 0 auto;
 }
 
-.container{
+.container {
   margin: 0 auto;
   padding: 0 3rem;
-  margin-top:2rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
-.profile-section-left h1, .profile-section-left h2, .profile-section-left p{
+.profile-section-left h1,
+.profile-section-left h2,
+.profile-section-left p {
   color: #d5dbdf;
 }
 
-.profile-section-right h1, .profile-section-right h2, .profile-section-right p{
+.profile-section-right h1,
+.profile-section-right h2,
+.profile-section-right p {
   color: #2c334d;
 }
 
-.container h1{
+.container h1 {
   font-weight: 800;
   font-family: "Bungee Inline", cursive;
   font-size: 2.5em;
   margin: 3rem;
 }
 
-.container h2{
+.container h2 {
   padding-bottom: 20px;
   font-size: 1.4em;
 }
 
-.container p{
+.container p {
   font-size: 1.4em;
   font-weight: 800;
-  color: #333;
+  color: #ced7d8;
 }
-
 
 /* Control the left side */
 .right {
@@ -84,8 +93,8 @@ Body {
   width: 70%;
   float: right;
   height: 100%;
-  background-color: #d5dbdf;
-  z-index: 1010101010
+  background-color: #1e3d59;
+  z-index: 1010101010;
 }
 
 /* Control the right side */
@@ -94,27 +103,27 @@ Body {
   width: 30%;
   float: left;
   height: 100%;
-  background-color: #2c334d;
-  z-index: 1010101010
+  background-color: #1e3d59;
+  z-index: 1010101010;
 }
 
-.center img{
+.center img {
   height: 100px;
 }
 
-.separator{
+.separator {
   display: block;
   position: relative;
 }
 
-header{
+header {
   display: block;
   margin-right: auto;
   padding: 8px;
   position: inline-block;
   width: 100%;
   height: 8vh;
-  background-color:#797f86;
+  background-color: #1e3d59;
 }
 
 /* Grid code */
@@ -128,8 +137,8 @@ header{
 }
 
 .btn {
-  background-color: rgb(99, 135, 165);
-  color:rgb(218, 211, 211);
+  background-color: #ced7d8;
+  color: #2c334d;
   padding: 20px 130px;
   margin: auto;
   outline: none;
@@ -161,7 +170,7 @@ header{
   font-weight: 800;
 }
 
-.btn .icon{
+.btn .icon {
   min-width: 1rem;
   height: 1rem;
   display: flex;
@@ -238,14 +247,14 @@ header{
   .btn {
     padding: 10px 10px;
   }
-  .btnz{
+  .btnz {
     font-size: 15px;
   }
 }
 
 /*Footer Stuff*/
 .FooterContainer {
-  background-color: #686f8d;
+  background-color: #ced7d8;
   position: relative;
   margin-top: -100px;
   clear: both;
@@ -259,8 +268,8 @@ header{
 .Footer {
   width: 80%;
   height: 15vh;
-  background-color: #686f8d;
-  color: white;
+  background-color: #ced7d8;
+  color: #1e3d59;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -277,12 +286,12 @@ header{
 .FooterHeading h2 {
   margin-bottom: 1rem;
   font-size: 1.4em;
-  color: rgb(10,9,9);
+  color: #1e3d59;
   font-weight: bold;
 }
 
 .FooterHeading a {
-  color: white;
+  color: #1e3d59;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -299,7 +308,7 @@ header Button {
   font-weight: 800;
   font-size: 1em;
   text-decoration: none;
-  color: black;
+  color: #ced7d8;
 }
 
 header {
