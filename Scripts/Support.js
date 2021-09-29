@@ -28,7 +28,7 @@ if(btn5){
 
 
 function changetext1(){
-    text.innerHTML= "Revisa tu conexión y asegurate de que tu dispositivo se encuentre actualizado. Si es problema persiste contactanos."
+    text.innerHTML= "Revisa tu conexión a internet y asegurate de que tu dispositivo se encuentre actualizado, si esto no funciona, reinicia tu modem wi-fi. Si el problema persiste comunicate con tu operador, o proveedor de servicio de internet."
 }
 
 function changetext2(){
