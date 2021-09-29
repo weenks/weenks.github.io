@@ -32,17 +32,17 @@ function changetext1(){
 }
 
 function changetext2(){
-    text.innerHTML= "Esta pagina maneja su sitema de cuentas con google. Te recomendamos contactarte con ellos si tienes problemas con tu correo."
+    text.innerHTML= "Esta pagina maneja su sistema de inicio de sesión directamente con Google, por lo que cualquier problema debe manejarse directamente con dicha compañía. Te recomendamos contactarte con ellos si tienes problemas con tu correo."
 }
 
 function changetext3(){
-    text.innerHTML= "Nuestro sistema de cuentas se encuentra conectado a google. Dirigirte a su sition web si tienes problemas para crear una."
+    text.innerHTML= "El único requisito para poder ingresar es tener una cuenta de Google, pues se utiliza esta como medio de reconocimiento del usuario. Si no has creado una aún, dirigete a la página de Gmail y crea una, luego de esto puedes iniciar sesión sin ningún problema en nuestra página con dicha cuenta"
 }
 
 function changetext4(){
-    text.innerHTML= "Puedes comunicarnos cualquier error en la sección de contacto."
+    text.innerHTML= "Cualquier tipo de fallo, glitch o bug puede ser reportado comodamente en la sección de contacto en esta página, o puedes escribirnos sobre ello directamente al correo mencionado en la sección mencionada anteriormente."
 }
 
 function changetext5(){
-    text.innerHTML= "Aún no contamos con esa opción pero se encuentra en dessarollo."
+    text.innerHTML= "Por el momento no se pueden reportar usuarios directamente desde un módulo, pero puedes hacernoslo saber a través de la sección de contacto y nos encargaremos de ello."
 }
