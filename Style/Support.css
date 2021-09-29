@@ -85,6 +85,9 @@ Body {
   font-size: 1.4em;
   font-weight: 800;
   color: #ced7d8;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  text-align:justify;
 }
 
 /* Control the left side */
