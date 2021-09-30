@@ -126,17 +126,21 @@ header {
 }
 
 .circle {
+  margin-top: 3rem;
   width: 200px;
   height: 200px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ProImage{
   border-radius: 50%;
-  background: #ff0000;
-  margin: 0 auto;
+  width: 250px;
+  height: 250px;
 }
 
 .container {
-  margin: 0 auto;
+  margin:auto;
   padding: 0 3rem;
   margin-top: 2rem;
   text-align: center;
@@ -172,10 +176,6 @@ header {
   height: 100%;
   background-color: #f7cdaa;
   z-index: 1010101010;
-}
-
-.center img {
-  height: 100px;
 }
 
 .container h1 {

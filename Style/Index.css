@@ -103,7 +103,7 @@ main {
 }
 
 .ButtonDiv button:hover {
-  background-color: rgb(0, 150, 250); /* Green */
+  background-color: rgb(67, 87, 100);
   color: white;
 }
 
@@ -142,7 +142,7 @@ main {
 .FooterHeading h2 {
   margin-bottom: 1rem;
   font-size: 1.4em;
-  color: #1e3d59;
+  color: #3d5f7c;
   font-weight: bold;
 }
 
